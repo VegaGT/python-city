@@ -14,8 +14,9 @@ def draw_lake(length, width):
 
     # Print the lake
     for _ in range(width):
+        print('+', end='')
         for _ in range(length):
             print("~", end="")
-        print()
+        print('+')
 
     return
