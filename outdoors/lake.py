@@ -1,4 +1,5 @@
 def draw_lake(length, width):
+
     """
     Print a lake of given parameters(length and width)
     :param length: integer defining the length of a lake
@@ -10,7 +11,7 @@ def draw_lake(length, width):
     if length < 0:
         raise ValueError("Length is negative")
     if width < 0:
-        raise ValueError("Length is negative")
+        raise ValueError("Width is negative")
 
     # Print the lake
     for _ in range(width):
